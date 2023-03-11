@@ -8,4 +8,5 @@ setup(
       description='A tool for fiding Gabor receptive fields.',
       url='https://github.com/mohammadbashiri/fitgabor',
       packages=find_packages(),
+      install_requires=['numpy', 'tqdm', 'torch'],
       )
